@@ -8,7 +8,6 @@ function updatePlaylist(obj,key,value){
 }
 
 function removeFromPlaylist(obj,key){
-  console.log(delete obj.key)
-  console.log(obj)
-  return obj
+  delete obj.key;
+  return obj;
 }
